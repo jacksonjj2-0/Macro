@@ -23,7 +23,7 @@ Now, lets talk about the VBA script. The scirpt itself is very simple and it con
 
 
 
-This of course will only work if you have an AWS account setup already. [Here]([url](https://www.youtube.com/watch?v=XhW17g73fvY)) is a good video. 
+This of course will only work if you have an AWS account setup already. Here is a good video. [url](https://www.youtube.com/watch?v=XhW17g73fvY)
 
 After setting up your AWS account you must create an IAM user, create a user, give the user permissions to interact and create s3 buckets and then create an actual S3 bucket. 
 

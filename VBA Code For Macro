@@ -1,0 +1,16 @@
+Sub ExecutePythonScript()
+    Dim pythonScriptPath As String
+    Dim cmd As String
+    
+    ' Set the path to your Python script
+    pythonScriptPath = "C:\Users\Jai\OneDrive\Desktop\JJ Jackson\Python\Macro\bester.py"
+    
+    ' Construct the command to run the Python script
+    cmd = "python """ & pythonScriptPath & """"
+    
+    ' Execute the Python script using the command
+    Shell "cmd /c " & cmd, vbHide ' Change vbHide to vbNormalFocus for visible command prompt
+    
+    MsgBox "Python script executed successfully!"
+End Sub
+
